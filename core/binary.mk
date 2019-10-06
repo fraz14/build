@@ -1514,7 +1514,8 @@ my_cflags += -Wall -Werror -Wno-unused-variable -Wno-unused-value -Wno-unused-fu
              -Wno-parentheses -Wno-unused-private-field -Wno-missing-braces -Wno-implicit-function-declaration \
              -Wno-pointer-arith -Wno-gnu-designator -Wno-constant-logical-operand -Wno-incompatible-pointer-types \
              -Wno-address-of-packed-member -Wno-enum-conversion -Wno-self-assign -Wno-reorder -Wno-implicit-fallthrough \
-             -Wno-switch -Wno-visibility -Wno-enum-compare-switch
+             -Wno-switch -Wno-visibility -Wno-enum-compare-switch -Wno-sign-conversion -Wno-overloaded-virtual \
+             -Wno-mismatched-tags -Wno-sizeof-array-argument
 
 # Disable clang-tidy if it is not found.
 ifeq ($(PATH_TO_CLANG_TIDY),)
